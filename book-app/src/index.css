@@ -10,21 +10,23 @@ body {
 }
 
 .booklist {
+    background-color: red;
     width: 90vw;
     margin: 20px auto;
     display: flex;
-    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen {
     .booklist {
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
     }
 }
 
 .book {
     background: #fff;
-    border-radius: 1rem 1rem;
-    padding: 1rem 0;
-    margin: 16px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 10px;
 }

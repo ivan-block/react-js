@@ -11,6 +11,10 @@ function BookList() {
       <Book />
       <Book />
       <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
     </section>
   )
 }
@@ -39,7 +43,7 @@ function Title() {
 
 function Author() {
   return (
-    <h4>Ivan Agwuye</h4>
+    <h4 style={{color: "#ecf0f1", marginTop: "1rem"}}>Ivan Agwuye</h4>
   )
 }
 
