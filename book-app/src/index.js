@@ -12,13 +12,9 @@ function BookList() {
       <Book />
       <Book />
       <Book />
-      <Book />
-      <Book />
-      <Book />
     </section>
   )
 }
-
 function Book() {
   return (
     <article className='book'>
